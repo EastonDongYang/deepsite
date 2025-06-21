@@ -24,7 +24,12 @@ const ptSans = PT_Sans({
 export const metadata: Metadata = {
   title: "DeepSite Pro | AI Website Builder ✨",
   description:
-    "DeepSite is a web development tool that helps you build websites with AI, no code required. Let's deploy your website with DeepSite and enjoy the magic of AI.",
+    "DeepSite Pro is a web development tool that helps you build websites with AI, no code required. Create professional websites instantly with our AI-powered platform.",
+  keywords: "AI website builder, no-code, website creator, AI tools, web development, deepsite",
+  robots: "index, follow",
+  alternates: {
+    canonical: "https://deepsite-pro.vercel.app",
+  },
   openGraph: {
     title: "DeepSite | Build with AI ✨",
     description:

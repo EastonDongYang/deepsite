@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+
+# Allow all pages to be crawled
+Disallow: /api/
+Disallow: /_next/
+Disallow: /admin/
+
+# Sitemap location
+Sitemap: https://your-domain.com/sitemap.xml
+
+# Crawl delay
+Crawl-delay: 1 
