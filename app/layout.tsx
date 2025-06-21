@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   keywords: "AI website builder, no-code, website creator, AI tools, web development, deepsite",
   robots: "index, follow",
   alternates: {
-    canonical: "https://deepsite-pro.vercel.app",
+    canonical: "https://deepsite.vip",
   },
   openGraph: {
     title: "DeepSite | Build with AI ✨",

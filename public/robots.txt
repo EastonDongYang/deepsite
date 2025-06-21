@@ -7,7 +7,7 @@ Disallow: /_next/
 Disallow: /admin/
 
 # Sitemap location
-Sitemap: https://your-domain.com/sitemap.xml
+Sitemap: https://deepsite.vip/sitemap.xml
 
 # Crawl delay
 Crawl-delay: 1 
