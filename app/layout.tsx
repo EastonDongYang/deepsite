@@ -22,7 +22,7 @@ const ptSans = PT_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "DeepSite | Build with AI ✨",
+  title: "DeepSite Pro | AI Website Builder ✨",
   description:
     "DeepSite is a web development tool that helps you build websites with AI, no code required. Let's deploy your website with DeepSite and enjoy the magic of AI.",
   openGraph: {

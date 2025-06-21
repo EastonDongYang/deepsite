@@ -1,5 +1,5 @@
 ---
-title: DeepSite v2
+title: DeepSite Pro
 emoji: 🐳
 colorFrom: blue
 colorTo: blue

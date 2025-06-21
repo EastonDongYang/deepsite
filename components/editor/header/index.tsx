@@ -42,7 +42,7 @@ export function Header({
             DeepSite
             <span className="font-mono bg-gradient-to-br from-sky-500 to-emerald-500 text-neutral-950 rounded-full text-xs ml-2 px-1.5 py-0.5">
               {" "}
-              v2
+              Pro
             </span>
           </p>
         </h1>
