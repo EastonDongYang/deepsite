@@ -1,0 +1,20 @@
+{
+  "askAIAnything": "向AI提问任何内容...",
+  "askAIForEdits": "让AI修改代码...",
+  "askAIAboutElement": "询问AI关于 {{elementName}}...",
+  "stopGeneration": "停止生成",
+  "aiIsThinking": "AI正在思考...",
+  "aiIsCoding": "AI正在编码...",
+  "aiRespondedSuccessfully": "AI响应成功",
+  "aiStreamFinished": "AI流式传输完成",
+  "aiGenerationStopped": "AI生成已停止",
+  "settingsDialogTitle": "AI提供商设置",
+  "providerLabel": "AI提供商",
+  "modelLabel": "模型名称",
+  "apiKeyLabel": "API密钥",
+  "baseUrlLabel": "基础URL (可选)",
+  "doneButton": "完成",
+  "editButtonLabel": "编辑",
+  "editButtonTooltip": "在页面上选择一个元素，让AI直接对其进行编辑。",
+  "diffPatchLabel": "差异补丁更新"
+}

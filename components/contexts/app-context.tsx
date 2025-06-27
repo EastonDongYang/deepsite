@@ -1,6 +1,10 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 "use client";
 
+import { useEffect } from "react"; // Added useEffect
+import { I18nextProvider, useTranslation } from "react-i18next"; // Added i18n imports
+import i18nInstance from "@/lib/i18n"; // Our initialized i18next instance
+
 import { useUser } from "@/hooks/useUser";
 import { usePathname, useRouter } from "next/navigation";
 import { useMount } from "react-use";
@@ -8,6 +12,18 @@ import { UserContext } from "@/components/contexts/user-context";
 import { User } from "@/types";
 import { toast } from "sonner";
 import { useBroadcastChannel } from "@/lib/useBroadcastChannel";
+
+// Helper component to set HTML lang attribute
+function HtmlLangUpdater() {
+  const { i18n } = useTranslation(); // This hook will now work because I18nextProvider is an ancestor
+  useEffect(() => {
+    if (document.documentElement.lang !== i18n.language) {
+      document.documentElement.lang = i18n.language;
+    }
+  }, [i18n.language]);
+  return null;
+}
+
 
 export default function AppContext({
   children,
@@ -50,8 +66,11 @@ export default function AppContext({
   });
 
   return (
-    <UserContext value={{ user, loading, logout } as any}>
-      {children}
-    </UserContext>
+    <I18nextProvider i18n={i18nInstance}>
+      <HtmlLangUpdater />
+      <UserContext value={{ user, loading, logout } as any}>
+        {children}
+      </UserContext>
+    </I18nextProvider>
   );
 }

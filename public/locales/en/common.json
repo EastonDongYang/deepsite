@@ -1,0 +1,20 @@
+{
+  "askAIAnything": "Ask AI anything...",
+  "askAIForEdits": "Ask AI for edits",
+  "askAIAboutElement": "Ask AI about {{elementName}}...",
+  "stopGeneration": "Stop generation",
+  "aiIsThinking": "AI is thinking...",
+  "aiIsCoding": "AI is coding...",
+  "aiRespondedSuccessfully": "AI responded successfully",
+  "aiStreamFinished": "AI stream finished",
+  "aiGenerationStopped": "AI generation stopped",
+  "settingsDialogTitle": "AI Provider Settings",
+  "providerLabel": "AI Provider",
+  "modelLabel": "Model Name",
+  "apiKeyLabel": "API Key",
+  "baseUrlLabel": "Base URL (Optional)",
+  "doneButton": "Done",
+  "editButtonLabel": "Edit",
+  "editButtonTooltip": "Select an element on the page to ask AI to edit it directly.",
+  "diffPatchLabel": "Diff-Patch Update"
+}
